@@ -1,26 +1,30 @@
-﻿// string name ="Efe";
-// string surname ="Doğan";
-// int age = 24;
+﻿ string msg = "Hello There. My name is Efe Dogan.";
 
-// String str = "My name is " +name +" "+surname +" and I'm " +age+ " years old.";
+//  Console.WriteLine (msg.Length);
+//  Console.WriteLine (msg.ToLower());
+//  Console.WriteLine (msg.ToUpper());
+//  Console.WriteLine (msg.Trim());
+//  Console.WriteLine (msg.Split()[0]);
+//  Console.WriteLine (msg[6]);
+//  Console.WriteLine (msg.StartsWith("Hello"));
+//  Console.WriteLine (msg.EndsWith("Dogan."));
+//  Console.WriteLine (msg.Contains("There"));
+//  Console.WriteLine (msg.IndexOf("There"));
+//  Console.WriteLine (msg.Substring(5));
+//  Console.WriteLine (msg.Substring(5,10));
 
-// String str = string.Format("My name is {0} {1} and I'm {3} years old.",name,surname,age);
+// int index = msg.IndexOf("name");
+// Console.WriteLine(msg.Substring(index));
 
-// string str = $"My name is {name} {surname} and I'm {age} years old.";
+// Console.WriteLine(msg.Replace(" ","-").Replace(".","").Replace("@","").ToLower());
 
-// Console.WriteLine(str);
+// Console.WriteLine(msg.Insert(0,"..."));
+// Console.WriteLine(msg.Insert(msg.Length,".."));
+Console.WriteLine(msg.Remove(5,10));
 
 
 
-Console.Write("Name: ");
-string name=Console.ReadLine();
 
-Console.Write("Surname: ");
-string surname = Console.ReadLine();
 
-Console.Write("Age: ");
-int age = int.Parse(Console.ReadLine());
 
-String str = $"My name is {name} {surname} and I'm {age} years old.";
 
-Console.WriteLine(str);
