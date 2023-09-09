@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj": {}
+    "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj": {
+    "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj",
+        "projectUniqueName": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj",
+        "projectPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\C#.csproj",
         "packagesPath": "C:\\Users\\EFE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\obj\\",
+        "outputPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Donguler\\Uygulama Sayi Tahmin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EFE\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EFE\\Desktop\\Dökümanlar\\Yazılım\\C#\\bolum7\\C#.csproj",
+      "projectUniqueName": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Veri Yapıları\\bolum8\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "C:\\Users\\EFE\\Desktop\\Dökümanlar\\Yazılım\\C#\\bolum7\\C#.csproj",
+      "projectPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Veri Yapıları\\bolum8\\C#.csproj",
       "packagesPath": "C:\\Users\\EFE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EFE\\Desktop\\Dökümanlar\\Yazılım\\C#\\bolum7\\obj\\",
+      "outputPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Veri Yapıları\\bolum8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EFE\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

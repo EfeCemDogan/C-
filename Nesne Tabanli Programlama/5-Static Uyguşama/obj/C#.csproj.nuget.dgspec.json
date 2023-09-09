@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj": {}
+    "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj": {
+    "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj",
+        "projectUniqueName": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj",
+        "projectPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\C#.csproj",
         "packagesPath": "C:\\Users\\EFE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\obj\\",
+        "outputPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\5-Static Uyguşama\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EFE\\AppData\\Roaming\\NuGet\\NuGet.Config"

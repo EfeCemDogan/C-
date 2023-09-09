@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\Bolum1\\C#.csproj",
+      "projectUniqueName": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\1-Class Uygulama\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\Bolum1\\C#.csproj",
+      "projectPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\1-Class Uygulama\\C#.csproj",
       "packagesPath": "C:\\Users\\EFE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\Bolum1\\obj\\",
+      "outputPath": "c:\\Users\\EFE\\Desktop\\Yazılım\\Dökümanlarım\\C#\\Nesne Tabanli Programlama\\1-Class Uygulama\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EFE\\AppData\\Roaming\\NuGet\\NuGet.Config"
