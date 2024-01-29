@@ -595,24 +595,182 @@ namespace ConsoleApp
             //     Console.WriteLine($"Product: {size} {color} {type}");
             // }
 
-            static void Main() {
-                Random random = new Random();
-                int current = 0;
+            // static void Main() {
+            //     Random random = new Random();
+            //     int current = 0;
 
-                do
-                {
-                    current = random.Next(1, 11);
-                    Console.WriteLine(current);
-                } while (current != 7);
-            }
+            //     do
+            //     {
+            //         current = random.Next(1, 11);
+            //         Console.WriteLine(current);
+            //     } while (current != 7);
+            // }
+
+            // static void Main() {
+            //     int value1 = 12;
+            //     decimal value2 = 6.2m;
+            //     float value3 = 4.3f;
+
+            //     // The Convert class is best for converting the fractional decimal numbers into whole integer numbers
+            //     // Convert.ToInt32() rounds up the way you would expect.
+            //     int result1 = Convert.ToInt32((decimal)value1 / value2);
+            //     Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+            //     decimal result2 = value2 / (decimal)value3;
+            //     Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+            //     float result3 = value3 / value1;
+            //     Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+            // }
+
+            // static void Main() {
+            //     string[] pallets = { "B14", "A11", "B12", "A13" };
+            //     Console.WriteLine("");
+
+            //     Console.WriteLine($"Before: {pallets[0]}");
+            //     Array.Clear(pallets, 0, 2);
+            //     Console.WriteLine($"After: {pallets[0]}");
+
+            //     Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+            //     foreach (var pallet in pallets)
+            //     {
+            //         Console.WriteLine($"-- {pallet}");
+            //     }
+            // }
+
+
+            // static void Main() {
+            //     string[] pallets = { "B14", "A11", "B12", "A13" };
+            //     Console.WriteLine("");
+
+            //     Array.Clear(pallets, 0, 2);
+            //     Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+            //     foreach (var pallet in pallets)
+            //     {
+            //         Console.WriteLine($"-- {pallet}");
+            //     }
+
+            //     Console.WriteLine("");
+            //     Array.Resize(ref pallets, 6);
+            //     Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+
+            //     pallets[4] = "C01";
+            //     pallets[5] = "C02";
+
+            //     foreach (var pallet in pallets)
+            //     {
+            //         Console.WriteLine($"-- {pallet}");
+            //     }
+
+            //     Console.WriteLine("");
+            //     Array.Resize(ref pallets, 3);
+            //     Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
+
+            //     foreach (var pallet in pallets)
+            //     {
+            //         Console.WriteLine($"-- {pallet}");
+            //     }
+            // }
+
+            // static void Main() {
+            //     string pangram = "The quick brown fox jumps over the lazy dog";
+
+            //     // Step 1
+            //     string[] message = pangram.Split(' ');
+
+            //     //Step 2
+            //     string[] newMessage = new string[message.Length];
+
+            //     // Step 3
+            //     for (int i = 0; i < message.Length; i++)
+            //     {
+            //         char[] letters = message[i].ToCharArray();
+            //         Array.Reverse(letters);
+            //         newMessage[i] = new string(letters);
+            //     }
+
+            //     //Step 4
+            //     string result = String.Join(" ", newMessage);
+            //     Console.WriteLine(result);
+            // }
+
+            // static void Main() {
+            //     int invoiceNumber = 1201;
+            //     decimal productShares = 25.4568m;
+            //     decimal subtotal = 2750.00m;
+            //     decimal taxPercentage = .15825m;
+            //     decimal total = 3185.19m;
+
+            //     Console.WriteLine($"Invoice Number: {invoiceNumber}");
+            //     Console.WriteLine($"   Shares: {productShares:N3} Product");
+            //     Console.WriteLine($"     Sub Total: {subtotal:C}");
+            //     Console.WriteLine($"           Tax: {taxPercentage:P2}");
+            //     Console.WriteLine($"     Total Billed: {total:C}");
+            // }
+
+            // static void Main() {
+            //     string message = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
+
+            //     // The IndexOfAny() helper method requires a char array of characters. 
+            //     // You want to look for:
+
+            //     char[] openSymbols = { '[', '{', '(' };
+
+            //     // You'll use a slightly different technique for iterating through 
+            //     // the characters in the string. This time, use the closing 
+            //     // position of the previous iteration as the starting index for the 
+            //     //next open symbol. So, you need to initialize the closingPosition 
+            //     // variable to zero:
+
+            // int closingPosition = 0;
+
+            // while (true)
+            //     {
+            //         int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+
+            //         if (openingPosition == -1) break;
+
+            //         string currentSymbol = message.Substring(openingPosition, 1);
+
+            //         // Now  find the matching closing symbol
+            //         char matchingSymbol = ' ';
+
+            //         switch (currentSymbol)
+            //         {
+            //             case "[":
+            //                 matchingSymbol = ']';
+            //                 break;
+            //             case "{":
+            //                 matchingSymbol = '}';
+            //                 break;
+            //             case "(":
+            //                 matchingSymbol = ')';
+            //                 break;
+            //         }
+
+            //         // To find the closingPosition, use an overload of the IndexOf method to specify 
+            //         // that the search for the matchingSymbol should start at the openingPosition in the string. 
+
+            //         openingPosition += 1;
+            //         closingPosition = message.IndexOf(matchingSymbol, openingPosition);
+
+            //         // Finally, use the techniques you've already learned to display the sub-string:
+
+            //         int length = closingPosition - openingPosition;
+            //         Console.WriteLine(message.Substring(openingPosition, length));
+            //     }
+            // }
+
 
             // static void Main() {
             
             // }
 
+            
             // static void Main() {
             
             // }
+
 
         }
 }
