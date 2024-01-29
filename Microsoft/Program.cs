@@ -763,12 +763,223 @@ namespace ConsoleApp
 
 
             // static void Main() {
-            
+            //     const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+            //     string quantity = "";
+            //     string output = "";
+
+            //     // Your work here
+
+            //     // Extract the "quantity"
+            //     const string openSpan = "<span>";
+            //     const string closeSpan = "</span>";
+
+            //     int quantityStart = input.IndexOf(openSpan) + openSpan.Length; // + length of <span> so index at end of <span> tag
+            //     int quantityEnd= input.IndexOf(closeSpan);
+            //     int quantityLength = quantityEnd - quantityStart;
+            //     quantity = input.Substring(quantityStart, quantityLength);
+            //     quantity = $"Quantity: {quantity}";
+
+            //     // Set output to input, replacing the trademark symbol with the registered trademark symbol
+            //     const string tradeSymbol = "&trade;";
+            //     const string regSymbol = "&reg;";
+            //     output = input.Replace(tradeSymbol, regSymbol);
+
+            //     // Remove the opening <div> tag
+            //     const string openDiv = "<div>";
+            //     int divStart = output.IndexOf(openDiv);
+            //     output = output.Remove(divStart, openDiv.Length);
+
+            //     // Remove the closing </div> tag and add "Output:" to the beginning
+            //     const string closeDiv = "</div>";
+            //     int divCloseStart = output.IndexOf(closeDiv);
+            //     output = "Output: " + output.Remove(divCloseStart, closeDiv.Length);
+
+            //     Console.WriteLine(quantity);
+            //     Console.WriteLine(output);
             // }
 
-            
+
             // static void Main() {
-            
+            //     case "1":
+            //     // list all pet info
+            //     for (int i = 0; i < maxPets; i++)
+            //     {
+            //         if (ourAnimals[i, 0] != "ID #: ")
+            //         {
+            //             Console.WriteLine();
+            //             for (int j = 0; j < 7; j++) // increased exit condition
+            //             {
+            //                 Console.WriteLine(ourAnimals[i, j]);
+            //             }
+            //         }
+            //     }
+            // }
+
+
+            // static void Main() {
+            //    using System;
+
+            //     int[] times = {800, 1200, 1600, 2000};
+            //     int diff = 0;
+
+            //     Console.WriteLine("Enter current GMT");
+            //     int currentGMT = Convert.ToInt32(Console.ReadLine());
+
+            //     Console.WriteLine("Current Medicine Schedule:");
+
+            //     /* Format and display medicine times */
+            //     foreach (int val in times)
+            //     {
+            //         string time = val.ToString();
+            //         int len = time.Length;
+
+            //         if (len >= 3)
+            //         {
+            //             time = time.Insert(len - 2, ":");
+            //         }
+            //         else if (len == 2)
+            //         {
+            //             time = time.Insert(0, "0:");
+            //         }
+            //         else
+            //         {
+            //             time = time.Insert(0, "0:0");
+            //         }
+
+            //         Console.Write($"{time} ");
+            //     }
+
+            //     Console.WriteLine();
+
+            //     Console.WriteLine("Enter new GMT");
+            //     int newGMT = Convert.ToInt32(Console.ReadLine());
+
+            //     if (Math.Abs(newGMT) > 12 || Math.Abs(currentGMT) > 12)
+            //     {
+            //         Console.WriteLine("Invalid GMT");
+            //     }
+            //     else if (newGMT <= 0 && currentGMT <= 0 || newGMT >= 0 && currentGMT >= 0) 
+            //     {
+            //         diff = 100 * (Math.Abs(newGMT) - Math.Abs(currentGMT));
+
+            //         /* Adjust the times by adding the difference, keeping the value within 24 hours */
+            //         for (int i = 0; i < times.Length; i++) 
+            //         {
+            //             times[i] = ((times[i] + diff)) % 2400;
+            //         }
+            //     } 
+            //     else 
+            //     {
+            //         diff = 100 * (Math.Abs(newGMT) + Math.Abs(currentGMT));
+
+            //         /* Adjust the times by adding the difference, keeping the value within 24 hours */
+            //         for (int i = 0; i < times.Length; i++) 
+            //         {
+            //             times[i] = ((times[i] + diff)) % 2400;
+            //         }
+            //     }
+
+            //     Console.WriteLine("New Medicine Schedule:");
+
+            //     /* Format and display medicine times */
+            //     foreach (int val in times)
+            //     {
+            //         string time = val.ToString();
+            //         int len = time.Length;
+
+            //         if (len >= 3)
+            //         {
+            //             time = time.Insert(len - 2, ":");
+            //         }
+            //         else if (len == 2)
+            //         {
+            //             time = time.Insert(0, "0:");
+            //         }
+            //         else
+            //         {
+            //             time = time.Insert(0, "0:0");
+            //         }
+
+            //         Console.Write($"{time} ");
+            //     }
+
+            //     Console.WriteLine();
+            // }
+
+
+            // static void Main() {
+            //    string[] ipv4Input = {"107.31.1.5", "255.0.0.255", "555..0.555", "255...255"};
+            //     string[] address;
+            //     bool validLength = false;
+            //     bool validZeroes = false;
+            //     bool validRange = false;
+
+            //     foreach (string ip in ipv4Input) 
+            //     {
+            //         address = ip.Split(".", StringSplitOptions.RemoveEmptyEntries);
+
+            //         ValidateLength(); 
+            //         ValidateZeroes(); 
+            //         ValidateRange();
+
+            //         if (validLength && validZeroes && validRange) 
+            //         {
+            //             Console.WriteLine($"{ip} is a valid IPv4 address");
+            //         } 
+            //         else 
+            //         {
+            //             Console.WriteLine($"{ip} is an invalid IPv4 address");
+            //         }
+            //     }
+
+            //     void ValidateLength() 
+            //     {
+            //         validLength = address.Length == 4;
+            //     };
+
+            //     void ValidateZeroes() 
+            //     {
+            //         foreach (string number in address) 
+            //         {
+            //             if (number.Length > 1 && number.StartsWith("0")) 
+            //             {
+            //                 validZeroes = false;
+            //                 return;
+            //             }
+            //         }
+
+            //         validZeroes = true;
+            //     }
+
+            //     void ValidateRange() 
+            //     {
+            //         foreach (string number in address) 
+            //         {
+            //             int value = int.Parse(number);
+            //             if (value < 0 || value > 255) 
+            //             {
+            //                 validRange = false;
+            //                 return;
+            //             }
+            //         }
+            //         validRange = true;
+            //     }
+            // }
+
+
+            // static void Main() {
+               
+            // }
+
+
+            // static void Main() {
+               
+            // }
+
+
+            // static void Main() {
+               
             // }
 
 
